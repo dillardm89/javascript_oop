@@ -1,6 +1,6 @@
 # private_javascript_oop
 
-(PRIVATE) Javascript OOP Model - Vehicle
+Javascript OOP Model - Vehicle
 
 ![](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWpzNGZyaWI2Njd1MW92YTdxN3N0dzQ5bjlqZWFnbXA2c3d6dGJzbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3g45AXtRmqEDhf4R3O/giphy.gif)
 
