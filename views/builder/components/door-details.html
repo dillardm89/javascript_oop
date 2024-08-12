@@ -1,0 +1,42 @@
+<div class="card-body door-details-div p-1">
+	<h5>Enter Door Details</h5>
+	<div class="row mb-2" id="door-name-div">
+		<div class="col-6 text-start">
+			<label for="door-name" class="col-form-label">Name: </label>
+		</div>
+		<div class="col-6">
+			<input type="text" id="door-name" class="form-control" />
+		</div>
+	</div>
+
+	<div class="row mb-2" id="door-hinge-div">
+		<div class="col-6 text-start">
+			<p class="m-0 p-0 col-form-label">Hinge Type:</p>
+		</div>
+		<div class="col-6">
+			<select class="form-select" id="hinge-type">
+				<option selected value="standard">Standard</option>
+				<option value="gull-wing">Gull-Wing</option>
+				<option value="hatchback">Hatchback</option>
+				<option value="trunk">Trunk</option>
+				<option value="scissor">Scissor</option>
+				<option value="sliding">Sliding</option>
+				<option value="bifold">Bifold</option>
+			</select>
+		</div>
+	</div>
+
+	<div class="row" id="door-window-div">
+		<div class="col-6 text-start">
+			<label for="has-window" class="form-check-lable">Has Window?</label>
+		</div>
+		<div class="col-6">
+			<input
+				type="checkbox"
+				class="form-check-input"
+				value=""
+				id="has-window"
+			/>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,68 @@
+<div class="card-body seat-details-div p-1">
+	<h5>Enter Seat Details</h5>
+	<div class="row mb-2" id="seat-name-div">
+		<div class="col-7 text-start">
+			<label for="seat-name" class="col-form-label">Name: </label>
+		</div>
+		<div class="col-5">
+			<input type="text" id="seat-name" class="form-control" />
+		</div>
+	</div>
+
+	<div class="row mb-2" id="seat-material-div">
+		<div class="col-7 text-start">
+			<p class="m-0 p-0 col-form-label">Seat Material:</p>
+		</div>
+		<div class="col-5">
+			<select class="form-select" id="seat-material">
+				<option selected value="cloth">Cloth</option>
+				<option value="leather">Leather</option>
+			</select>
+		</div>
+	</div>
+
+	<div class="row mb-2" id="seat-color-div">
+		<div class="col-7 text-start">
+			<p class="m-0 p-0 col-form-label">Seat Color:</p>
+		</div>
+		<div class="col-5">
+			<select class="form-select" id="seat-color">
+				<option selected value="beige">Beige</option>
+				<option value="gray">Gray</option>
+				<option value="black">Black</option>
+			</select>
+		</div>
+	</div>
+
+	<div class="row mb-2" id="seat-operation-div">
+		<div class="col-7 text-start">
+			<p class="m-0 p-0 col-form-label">Operation Type:</p>
+			<p class="m-0 small text-muted">(to Move / Adjust)</p>
+		</div>
+		<div class="col-5">
+			<select class="form-select" id="operation-type">
+				<option selected value="none">None</option>
+				<option value="manual">Manual</option>
+				<option value="electric">Electric</option>
+			</select>
+		</div>
+	</div>
+
+	<div class="row mb-2" id="seat-heat-div">
+		<div class="col-6 text-start">
+			<label for="has-heat" class="form-check-lable">Has Heating?</label>
+		</div>
+		<div class="col-6">
+			<input type="checkbox" class="form-check-input" value="" id="has-heat" />
+		</div>
+	</div>
+
+	<div class="row" id="seat-cool-div">
+		<div class="col-6 text-start">
+			<label for="has-cool" class="form-check-lable">Has Cooling?</label>
+		</div>
+		<div class="col-6">
+			<input type="checkbox" class="form-check-input" value="" id="has-cool" />
+		</div>
+	</div>
+</div>

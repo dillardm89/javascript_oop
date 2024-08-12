@@ -1,0 +1,155 @@
+<div class="card">
+	<div class="card-body p-3">
+		<h4 class="card-title text-center pb-3">Engine</h4>
+
+		<ul>
+			<li class="row pb-3">
+				<p class="m-0 px-0 card-text col-6">Status</p>
+				<div
+					class="p-0 col-6 text-center editor-detail-fields"
+					id="engine-status"
+				>
+					<select
+						class="form-select editor-form-select"
+						id="engine-status-select"
+					>
+						<option class="engine-status-options" value="off">off</option>
+						<option class="engine-status-options" value="on">on</option>
+					</select>
+				</div>
+			</li>
+
+			<li class="row pb-3">
+				<p class="m-0 px-0 card-text col-6">Transmission</p>
+				<div
+					class="p-0 col-6 text-center editor-detail-fields"
+					id="engine-transmission"
+				>
+					<select
+						class="form-select editor-form-select"
+						id="engine-transmission-select"
+					>
+						<option class="engine-transmission-options" value="automatic">
+							automatic
+						</option>
+						<option class="engine-transmission-options" value="manual">
+							manual
+						</option>
+					</select>
+				</div>
+			</li>
+
+			<li class="row pb-3">
+				<p class="m-0 px-0 card-text col-6">Fuel Type</p>
+				<div
+					class="p-0 col-6 text-center editor-detail-fields"
+					id="engine-fuel-type"
+				>
+					<select
+						class="form-select editor-form-select"
+						id="engine-fuel-type-select"
+					>
+						<option class="engine-fuel-type-options" value="gasoline">
+							gasoline
+						</option>
+						<option class="engine-fuel-type-options" value="diesel">
+							diesel
+						</option>
+						<option class="engine-fuel-type-options" value="hybrid">
+							hybrid
+						</option>
+						<option class="engine-fuel-type-options" value="electric">
+							electric
+						</option>
+					</select>
+				</div>
+			</li>
+
+			<li class="row pb-3">
+				<p class="m-0 px-0 card-text col-6">Fuel Level (%)</p>
+				<div
+					class="p-0 col-6 text-center editor-detail-fields"
+					id="engine-fuel-level"
+				>
+					<div
+						class="input-group p-0 editor-form-select"
+						id="engine-fuel-level-select"
+					>
+						<input
+							type="number"
+							class="form-control p-0"
+							id="engine-fuel-level-input"
+							min="0"
+							max="100"
+							step="1"
+						/>
+					</div>
+				</div>
+			</li>
+
+			<li class="row pb-3">
+				<p class="m-0 px-0 card-text col-6" id="engine-size-label">Size</p>
+				<div
+					class="p-0 col-6 text-center editor-detail-fields"
+					id="engine-size"
+				>
+					<div
+						class="input-group p-0 editor-form-select"
+						id="engine-size-select"
+					>
+						<input
+							type="number"
+							class="form-control p-0"
+							id="engine-size-input"
+						/>
+					</div>
+				</div>
+			</li>
+
+			<li class="row pb-3">
+				<p class="m-0 px-0 card-text col-6">Gear</p>
+				<div
+					class="p-0 col-6 text-center editor-detail-fields"
+					id="engine-gear"
+				>
+					<select
+						class="form-select editor-form-select"
+						id="engine-gear-select"
+					>
+						<option class="engine-gear-options" value="park">park</option>
+						<option class="engine-gear-options" value="reverse">reverse</option>
+						<option class="engine-gear-options" value="neutral">neutral</option>
+						<option class="engine-gear-options" value="drive">drive</option>
+						<option class="engine-gear-options" value="1st">1st</option>
+						<option class="engine-gear-options" value="2nd">2nd</option>
+						<option class="engine-gear-options" value="3rd">3rd</option>
+						<option class="engine-gear-options" value="4th">4th</option>
+						<option class="engine-gear-options" value="5th">5th</option>
+					</select>
+				</div>
+			</li>
+
+			<li class="row pb-3">
+				<p class="m-0 px-0 card-text col-6">Speed (mph)</p>
+				<div
+					class="p-0 col-6 text-center editor-detail-fields"
+					id="engine-speed"
+				>
+					<div
+						class="input-group p-0 editor-form-select"
+						id="engine-speed-select"
+					>
+						<input
+							type="number"
+							class="form-control p-0"
+							id="engine-speed-input"
+							min="0"
+							max="120"
+							step="1"
+						/>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+</div>

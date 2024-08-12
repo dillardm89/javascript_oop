@@ -1,0 +1,16 @@
+{
+  "name": "private_javascript_oop",
+  "version": "1.0.0",
+  "description": "(PRIVATE) Javascript OOP Model - Vehicle",
+  "main": "app.js",
+  "scripts": {
+    "start": "live-server --port=3000 --open=./public/index.html --watch=./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
